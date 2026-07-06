@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <title>LASHES CLUB</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { background-color: #fffafb; color: #444; line-height: 1.8; font-family: 'Montserrat', sans-serif; }
+        
+        h1, h2 { font-family: 'Playfair Display', serif; color: #d63384; text-align: center; margin-bottom: 20px; }
+        header { background: #fff; padding: 3rem 1rem; text-align: center; border-bottom: 1px solid #eee; }
+        .logo-img { width: 200px; height: 200px; border-radius: 50%; object-fit: cover; margin: 0 auto 15px; display: block; border: 3px solid #fce4ec; }
+        
+        .container { max-width: 700px; margin: 30px auto; padding: 20px; }
+        
+        .seccion { margin-bottom: 40px; }
+        details { background: white; margin-bottom: 20px; padding: 20px; border: 1px solid #fce4ec; border-radius: 12px; transition: 0.3s; }
+        details[open] { border-color: #d63384; box-shadow: 0 4px 10px rgba(214, 51, 132, 0.1); }
+        summary { font-family: 'Playfair Display', serif; font-size: 1.5rem; cursor: pointer; color: #d63384; outline: none; }
+        .contenido-servicio { margin-top: 20px; padding-top: 15px; border-top: 1px solid #fce4ec; font-size: 1.1rem; color: #666; }
+
+        .agendar-box { background: #fff; padding: 60px; border-radius: 20px; border: 35px solid #ffafbd; margin-bottom: 40px; text-align: center; }
+        select { width: 100%; padding: 12px; margin: 15px 0; border-radius: 8px; border: 1px solid #ddd; font-family: 'Montserrat'; }
+        .btn-wpp { display: inline-block; background: #25d366; color: white; padding: 12px 30px; border-radius: 25px; text-decoration: none; font-weight: bold; transition: 0.3s; cursor: pointer; border: none; font-family: 'Montserrat'; }
+        .btn-wpp:hover { background: #128c7e; }
+
+        /* Estilos galería comparativa */
+        .galeria-comparativa { display: flex; flex-direction: column; gap: 30px; margin-top: 30px; }
+        .comparativa-item { text-align: center; }
+        .titulo-procedimiento { font-family: 'Playfair Display', serif; font-size: 1.2rem; font-weight: bold; color: #d63384; margin-bottom: 10px; }
+        .imagenes-duo { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
+        .foto-box { display: flex; flex-direction: column; align-items: center; }
+        .foto-img { width: 100%; height: 200px; object-fit: cover; border-radius: 10px; }
+        .etiqueta { font-size: 0.85rem; font-weight: bold; color: #d63384; margin-top: 5px; }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="img/logo.png.jpeg" alt="Logo" class="logo-img">
+    <h1>DANI LOPEZ</h1>
+</header>
+
+<div class="container">
+
+    <div class="seccion">
+        <h2>Pestañas</h2>
+        <details><summary>Pestañas punto a punto</summary><p class="contenido-servicio">Se refiere a una técnica donde se aplican grupos pequeños de pestañas postizas (denominados "puntos" o "clústeres") sobre la línea de las pestañas naturales del cliente. Es un método rápido, generalmente utilizado para eventos puntuales, ya que su duración es corta en comparación con otras técnicas.</p></details>
+        <details><summary>Pestañas pelo a pelo</summary><p class="contenido-servicio">Es una técnica más avanzada y precisa en la que se adhiere una extensión de pestaña sintética de forma individual sobre cada una de las pestañas naturales del cliente. Este proceso permite un resultado más natural, personalizado y duradero, manteniendo la salud de la pestaña natural si se realiza correctamente.</p></details>
+        <details><summary>Lifting de pestañas</summary><p class="contenido-servicio">A diferencia de las extensiones, este procedimiento químico busca alzar, curvar y dar volumen a las propias pestañas naturales desde la raíz. El objetivo es lograr una apariencia de mayor longitud y apertura de la mirada sin necesidad de pestañas postizas.</p></details>
+        <details><summary>Retiro de pestañas</summary><p class="contenido-servicio">Es el proceso profesional para eliminar las extensiones de pestañas (ya sea punto a punto o pelo a pelo) utilizando productos solventes especializados. Es fundamental realizar este procedimiento con un experto para evitar daños, tirones o la pérdida de las pestañas naturales.</p></details>
+    </div>
+
+    <div class="seccion">
+        <h2>Cejas</h2>
+        <details><summary>Depilación de cejas</summary><p class="contenido-servicio">Es un procedimiento cuyo objetivo principal es dar forma a las cejas para armonizar el rostro y resaltar la belleza de la mirada. Puede realizarse mediante diversos métodos como pinzas, cera o hilo, siendo fundamental realizar un diseño adecuado basado en las facciones y la naturaleza propia de la ceja.</p></details>
+        <details><summary>Diseño de cejas en henna</summary><p class="contenido-servicio">Este tratamiento consiste en teñir tanto el vello como la piel con un tinte de origen vegetal. Es ideal para rellenar espacios, corregir asimetrías y proporcionar una apariencia de mayor densidad y definición, con una duración aproximada de 5 a 12 días en la piel y hasta 4 a 6 semanas en el vello.</p></details>
+        <details><summary>Laminado de cejas</summary><p class="contenido-servicio">Es un tratamiento semipermanente que alisa, peina y fija los vellos de las cejas, usualmente hacia arriba. Su propósito es lograr que las cejas luzcan más densas, ordenadas y definidas.</p></details>
+    </div>
+
+    <div class="seccion">
+        <h2>Labios</h2>
+        <details><summary>Hydralips</summary><p class="contenido-servicio">Es un tratamiento de hidratación profunda y realce de labios que se realiza mediante una técnica de micropunción con Dermapen. Al ser un procedimiento no invasivo, no requiere inyecciones; ayuda a mejorar la textura, el color y la suavidad de los labios, estimulando además la producción de colágeno y elastina sin dar una sensación de relleno artificial.</p></details>
+    </div>
+
+    <div class="agendar-box">
+        <h2>¡Reserva tu cita!</h2>
+        <select id="servicioSelect">
+            <option value="Pestañas punto a punto">Pestañas punto a punto</option>
+            <option value="Pestañas pelo a pelo">Pestañas pelo a pelo</option>
+            <option value="Lifting de pestañas">Lifting de pestañas</option>
+            <option value="Retiro de pestañas">Retiro de pestañas</option>
+            <option value="Depilación de cejas">Depilación de cejas</option>
+            <option value="Diseño de cejas en henna">Diseño de cejas en henna</option>
+            <option value="Laminado de cejas">Laminado de cejas</option>
+            <option value="Hydralips">Hydralips</option>
+        </select>
+        <button class="btn-wpp" onclick="enviarMensaje()">Agendar por WhatsApp</button>
+    </div>
+
+    <h2>Nuestro Trabajo</h2>
+    <div class="galeria-comparativa">
+        <!-- Bloque de ejemplo: puedes duplicar este código para otros servicios -->
+        <div class="comparativa-item">
+        <p class="titulo-procedimiento">HIDRALIPS</p>
+        <div class="imagenes-duo">
+            <div class="foto-box"><img src="img/foto1.jpg.jpeg" class="foto-img"><p class="etiqueta">Antes</p></div>
+            <div class="foto-box"><img src="img/foto2.jpg.jpeg" class="foto-img"><p class="etiqueta">Después</p></div>
+        </div>
+    </div>
+
+    <!-- Bloque 2: DISEÑOS DE CEJAS -->
+    <div class="comparativa-item">
+        <p class="titulo-procedimiento">DISEÑOS DE CEJAS</p>
+        <div class="imagenes-duo">
+            <div class="foto-box"><img src="img/foto3.jpg.jpeg" class="foto-img"><p class="etiqueta">Antes</p></div>
+            <div class="foto-box"><img src="img/foto4.jpg.jpeg" class="foto-img"><p class="etiqueta">Después</p></div>
+        </div>
+    </div>
+
+    <!-- Bloque 3: LAMINADO DE CEJAS -->
+    <div class="comparativa-item">
+        <p class="titulo-procedimiento">LAMINADO DE CEJAS</p>
+        <div class="imagenes-duo">
+            <div class="foto-box"><img src="img/foto5.jpg.jpeg" class="foto-img"><p class="etiqueta">Antes</p></div>
+            <div class="foto-box"><img src="img/foto6.jpg.jpeg" class="foto-img"><p class="etiqueta">Después</p></div>
+        </div>
+    </div>
+
+</div>
+
+<script>
+    function enviarMensaje() {
+        const numeroTelefono = "573XXXXXXXXXX"; 
+        const servicio = document.getElementById("servicioSelect").value;
+        const mensaje = `Hola, quiero agendar una cita para: ${servicio}`;
+        window.open(`https://wa.me/${numeroTelefono}?text=${encodeURIComponent(mensaje)}`, '_blank');
+    }
+</script>
+
+</body>
+</html>
